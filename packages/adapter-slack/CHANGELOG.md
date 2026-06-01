@@ -1,5 +1,23 @@
 # @chat-adapter/slack
 
+## 4.30.0
+
+### Minor Changes
+
+- 4c46c26: add lightweight Slack formatting primitives subpath
+- dbd8dc5: expose runtime-free Block Kit helpers for Slack card conversion
+- aba6aa9: add lightweight Slack API primitives subpath
+- b332a03: add lightweight Slack webhook primitives subpath
+- 6ed4a43: add low-level Slack helpers for files, thread replies, views, interactions, and input blocks
+
+### Patch Changes
+
+- 9b8d8c4: expand npm `keywords` for adapter and state packages to improve discoverability (adds `chat-sdk`, `chatbot`, `ai-agent`, `ai-sdk`, `vercel`, plus platform-specific terms)
+- 1294490: reuse low-level Slack formatting helpers in the adapter
+- Updated dependencies [5461ea9]
+  - chat@4.30.0
+  - @chat-adapter/shared@4.30.0
+
 ## 4.29.0
 
 ### Minor Changes
